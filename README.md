@@ -24,7 +24,7 @@ echo 'resources' >> .gitignore
 テーマ設定
 
 ```shell
-git submodule add git@github.com:lgaida/mediumish-gohugo-theme.git themes/mediumish
+git submodule add https://github.com/lgaida/mediumish-gohugo-theme.git themes/mediumish
 ```
 
 サイト設定
