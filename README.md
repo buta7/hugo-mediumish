@@ -27,6 +27,14 @@ echo 'resources' >> .gitignore
 git submodule add https://github.com/lgaida/mediumish-gohugo-theme.git themes/mediumish
 ```
 
+(参考)submoduleの削除
+
+```shell
+git submodule deinit -f themes/mediumish
+git rm -f themes/mediumish
+rm -fr .git/modules/themes
+```
+
 サイト設定
 
 ```shell
